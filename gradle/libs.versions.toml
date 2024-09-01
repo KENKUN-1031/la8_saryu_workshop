@@ -11,10 +11,12 @@ lottie = "3.4.0"
 material = "1.12.0"
 activity = "1.9.1"
 constraintlayout = "2.1.4"
+viewpager2 = "1.0.0"
 
 [libraries]
 android-lottie = { module = "com.com.airbnb.android:lottie", version.ref = "lottie" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
