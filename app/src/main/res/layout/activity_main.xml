@@ -5,16 +5,18 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2E282A"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/count_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="225dp"
         android:fontFamily="sans-serif-black"
         android:text="0"
-        android:textSize="36sp"
+        android:textColor="#17BEBB"
+        android:textSize="64sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +25,8 @@
         android:id="@+id/up_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="247dp"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="#17BEBB"
         android:fontFamily="sans-serif-black"
         android:text="UP"
         android:textSize="24sp"
@@ -36,10 +39,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="77dp"
+        android:backgroundTint="#17BEBB"
         android:ems="10"
         android:inputType="text"
         android:text="Name"
+        android:textColor="#17BEBB"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:fontFamily="sans-serif-black"
+        android:text="0~100"
+        android:textColor="#17BEBB"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

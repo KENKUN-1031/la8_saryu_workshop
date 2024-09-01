@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater).apply { setContentView(this.root) }
-        setContentView(R.layout.activity_title)
+//        setContentView(R.layout.activity_title)
 
         // sharedPreferenceを読み込む
         sharedPreferences = getSharedPreferences("prefs_name", Context.MODE_PRIVATE)
